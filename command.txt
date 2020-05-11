@@ -1,0 +1,9 @@
+1. Enter or \r : List all availabe RPC objects' label
+
+2. /<function_label>/run 1stArg 2ndArg... 
+    Ex: /LEDControl/run, 1 0 will excute a function
+
+3. /<object_label>/<method> Arg
+    Ex: /myled/write 1 will be myled.write(1)
+
+4. /<object_label> RPC will list all member function for the object_label class
